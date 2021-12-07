@@ -28,7 +28,7 @@ function setConnection () {
             if (err) {
                 return reject(err);
             } else {
-                resolve(connection);
+                //resolve(connection);
                 console.log('Connected to DB!');
 
                 console.log("Reading rows from Projects...");
@@ -52,6 +52,7 @@ function setConnection () {
                     console.log("%s\t%s", column.metadata.colName, column.value);
                   });
                 });
+                console.log("Still listening...");
                 //queryDatabase();
             }
         })

@@ -15,7 +15,6 @@
     "express": "^4.17.1",
     "highcharts": "^9.3.2",
     "highcharts-export-server": "^2.1.0",
-    "highcharts-pattern-fill": "^3.0.3",
     "mongoose": "^6.0.13",
     "mssql": "^7.3.0",
     "nodemon": "^2.0.15",

@@ -27,18 +27,15 @@ exports.create_series = (data) => {
         let serie = []
         serie = {
             name: names,
-            data : serie_data
-            // color: {
-            //     patternIndex: 0
-            //     // pattern: {
-            //     //     //image: 'https://direktionigstorage.blob.core.windows.net/soilpatterns/' +
-            //     //     //        img + '.jpg?sv=2020-02-10&ss=bfqt&srt=sco&sp=rwdlacuptfx&se=2031-05-31T23:31:19Z&st=2021-05-30T15:31:19Z&spr=https,http&sig=%2B8uWpzTxYE3Ij2K4zh0cHQKTKJaall27YB2pilbrNt8%3D',
-            //     //     image: 'https://direktionigstorage.blob.core.windows.net/soilpatterns/' +
-            //     //             'S.jpg?sv=2020-02-10&ss=bfqt&srt=sco&sp=rwdlacuptfx&se=2031-05-31T23:31:19Z&st=2021-05-30T15:31:19Z&spr=https,http&sig=%2B8uWpzTxYE3Ij2K4zh0cHQKTKJaall27YB2pilbrNt8%3D',
-            //     //     width: 98,
-            //     //     height: 34
-            //     // }
-            // }
+            data : serie_data,
+            color: {
+                pattern: {
+                    image: 'https://direktionigstorage.blob.core.windows.net/soilpatterns/' +
+                           img + '.jpg?sv=2020-02-10&ss=bfqt&srt=sco&sp=rwdlacuptfx&se=2031-05-31T23:31:19Z&st=2021-05-30T15:31:19Z&spr=https,http&sig=%2B8uWpzTxYE3Ij2K4zh0cHQKTKJaall27YB2pilbrNt8%3D',
+                    width: 98,
+                    height: 34
+                }
+            }
         };
         series.push(serie);
     };

@@ -6,7 +6,7 @@ const chart = require("../CreateChart")
 // Import filesystem and Highcharts Export Server module
 const fs = require("fs");
 const chartExporter = require("highcharts-export-server");
-const chartPattern =  require("highcharts-pattern-fill");
+//const chartPattern =  require("highcharts-pattern-fill");
 
 // Create and Save a new status
 exports.create = (req, res) => {
